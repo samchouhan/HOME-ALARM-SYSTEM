@@ -4,6 +4,19 @@ alarm_armed = False
 if motion_detected and alarm_armed:
     print("INTRUDER DETECTED!")
 
-class AlarmSystem:
+class HomeAlarmSystem:
+
+    def __init__(self):
+        self.armed = False
+
+    def arm(self):
+        self.armed = True
+
+    def disarm(self):
+        self.armed = False
+
+    def detect_motion(self):
+        if self.armed:
+            print("ALARM ACTIVATED!")
 
     
