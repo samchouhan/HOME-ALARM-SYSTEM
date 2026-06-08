@@ -1,4 +1,5 @@
 #Software system design code for the Home Alarm System (H_A_S)
+from plyer import notification
 alarm_armed = False
 
 if motion_detected and alarm_armed:
@@ -18,5 +19,8 @@ class HomeAlarmSystem:
     def detect_motion(self):
         if self.armed:
             print("ALARM ACTIVATED!")
+
+
+#Add desktop notification system
 
     
