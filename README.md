@@ -7,4 +7,4 @@ This is the code for home alarm system , it does not consist of the code for the
 ✅ Motion detection simulation
 ✅ Desktop notification when alarm triggers
 ✅ False alarm handling (user can disarm after trigger)
-✅ Event logging
+✅ Event logging (Event saving system)
