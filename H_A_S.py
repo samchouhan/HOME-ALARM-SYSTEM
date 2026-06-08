@@ -3,3 +3,7 @@ alarm_armed = False
 
 if motion_detected and alarm_armed:
     print("INTRUDER DETECTED!")
+
+class AlarmSystem:
+
+    
