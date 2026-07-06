@@ -70,5 +70,9 @@ class AlarmSystem:
     while True:
         print("\n===== HOME ALARM SYSTEM =====")
         print("1. Arm System")
+        print("2. Disarm System")
+        print("3. Simulate Motion Detection")
+        print("4. View Logs")
+        print("5. Exit")
 
    
