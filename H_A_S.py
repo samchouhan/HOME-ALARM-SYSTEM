@@ -74,5 +74,27 @@ class AlarmSystem:
         print("3. Simulate Motion Detection")
         print("4. View Logs")
         print("5. Exit")
+        
+        choice = input("Enter choice: ")
+
+        if choice == "1":
+            alarm.arm_system()
+
+        elif choice == "2":
+            alarm.disarm_system()
+
+        elif choice == "3":
+            alarm.detect_motion()
+
+        elif choice == "4":
+            alarm.show_logs()
+
+        elif choice == "5":
+            print("Exiting...")
+            break
+
+        else:
+            print("Invalid choice.")
+
 
    
