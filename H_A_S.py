@@ -54,4 +54,14 @@ class AlarmSystem:
             print("\nALARM ACTIVATED!")
             self.log_event("Intrusion alarm triggered")
 
+        def show_logs(self):
+        print("\n===== EVENT LOGS =====")
+
+        if not self.logs:
+            print("No logs available.")
+            return
+
+        for log in self.logs:
+            print(log)
+
    
