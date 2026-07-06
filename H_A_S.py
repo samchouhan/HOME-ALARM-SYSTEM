@@ -64,4 +64,11 @@ class AlarmSystem:
         for log in self.logs:
             print(log)
 
+    def main():
+    alarm = AlarmSystem()
+
+    while True:
+        print("\n===== HOME ALARM SYSTEM =====")
+        print("1. Arm System")
+
    
